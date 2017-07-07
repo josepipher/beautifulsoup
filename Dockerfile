@@ -5,5 +5,6 @@ RUN yum install -y epel-release && \
     yum install -y python-pip && \
     pip install beautifulsoup4 && \
     pip install lxml && \
-    yum update -y && yum clean all
+    yum update -y && yum clean all && \
+    yum install -y python-qt4
 
