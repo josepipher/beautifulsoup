@@ -4,5 +4,6 @@ MAINTAINER sanjose
 RUN yum install -y epel-release && \
     yum install -y python-pip && \
     pip install beautifulsoup4 && \
-    pip install lxml
+    pip install lxml && \
+    yum update -y && yum clean all
 
